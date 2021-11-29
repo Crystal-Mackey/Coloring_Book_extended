@@ -16,7 +16,7 @@ export default class Robot extends React.Component {
         <g>
           <path
             id="svg_0"
-            onClick={() => this.props.onFillColor(23)}
+            onClick={() => this.props.onFill(23)}
             fill={this.props.fillColors[23]}
             fillRule="evenodd"
             stroke="#000000"
@@ -24,7 +24,7 @@ export default class Robot extends React.Component {
           />
           <path
             id="svg_1"
-            onClick={() => this.props.onFillColor(24)}
+            onClick={() => this.props.onFill(24)}
             fill={this.props.fillColors[24]}
             fillRule="evenodd"
             stroke="#000000"
@@ -32,7 +32,7 @@ export default class Robot extends React.Component {
           />
           <path
             id="svg_2"
-            onClick={() => this.props.onFillColor(25)}
+            onClick={() => this.props.onFill(25)}
             fill={this.props.fillColors[25]}
             fillRule="evenodd"
             stroke="#000000"
@@ -40,7 +40,7 @@ export default class Robot extends React.Component {
           />
           <path
             id="svg_3"
-            onClick={() => this.props.onFillColor(26)}
+            onClick={() => this.props.onFill(26)}
             fill={this.props.fillColors[26]}
             fillRule="evenodd"
             stroke="#000000"
@@ -48,7 +48,7 @@ export default class Robot extends React.Component {
           />
           <path
             id="svg_4"
-            onClick={() => this.props.onFillColor(27)}
+            onClick={() => this.props.onFill(27)}
             fill={this.props.fillColors[27]}
             fillRule="evenodd"
             stroke="#000000"
@@ -56,7 +56,7 @@ export default class Robot extends React.Component {
           />
           <path
             id="svg_5"
-            onClick={() => this.props.onFillColor(28)}
+            onClick={() => this.props.onFill(28)}
             fill={this.props.fillColors[28]}
             fillRule="evenodd"
             stroke="#000000"
@@ -64,7 +64,7 @@ export default class Robot extends React.Component {
           />
           <path
             id="svg_6"
-            onClick={() => this.props.onFillColor(29)}
+            onClick={() => this.props.onFill(29)}
             fill={this.props.fillColors[29]}
             fillRule="evenodd"
             stroke="#000000"
@@ -72,7 +72,7 @@ export default class Robot extends React.Component {
           />
           <path
             id="svg_7"
-            onClick={() => this.props.onFillColor(30)}
+            onClick={() => this.props.onFill(30)}
             fill={this.props.fillColors[30]}
             fillRule="evenodd"
             stroke="#000000"
@@ -80,7 +80,7 @@ export default class Robot extends React.Component {
           />
           <path
             id="svg_8"
-            onClick={() => this.props.onFillColor(31)}
+            onClick={() => this.props.onFill(31)}
             fill={this.props.fillColors[31]}
             fillRule="evenodd"
             stroke="#000000"

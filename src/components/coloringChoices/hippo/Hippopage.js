@@ -30,7 +30,7 @@ function HippoPage() {
         <Colors currentColor={currentColor} changeColor={setCurrentColor} />
         <div className="sharebuttons">
         <FacebookShareButton
-        url={"https://coloringpagemintbean.herokuapp.com/hippo"}
+        url={"https://coloramaextended.herokuapp.com/hippo"}
         quote={"Look at what I made!"}
         hashtag={"#coloring"}
         description={"Hippo coloring page"}
@@ -40,7 +40,7 @@ function HippoPage() {
     </FacebookShareButton>
     <TwitterShareButton
         title={"Hippo"}
-        url={"https://coloringpagemintbean.herokuapp.com/hippo"}
+        url={"https://coloramaextended.herokuapp.com/hippo"}
         hashtags={["Hippo", "color"]}
       >
         <TwitterIcon size={32} round />
@@ -48,7 +48,7 @@ function HippoPage() {
       </TwitterShareButton>
       <LinkedinShareButton
       title={"Hippo"}
-      url={"https://coloringpagemintbean.herokuapp.com/hippo"}
+      url={"https://coloramaextended.herokuapp.com/hippo"}
       summary={"A coloring page of a simple hippo"}>
         <LinkedinIcon size={32} round /> Share
       </LinkedinShareButton>
