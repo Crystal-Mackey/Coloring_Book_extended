@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import Flower from "./Flower";
-import Colors from "../colorPalette/Colors";
+import Hippo from "./hippo";
+import Colors from "../../colorPalette/Colors";
 import { FacebookShareButton, TwitterShareButton, LinkedinShareButton } from "react-share";
 import { FacebookIcon, TwitterIcon, LinkedinIcon } from "react-share";
 
 
 
-function FlowerPage() {
-  const [fillColors, setFillColors] = useState(Array(22).fill("white"));
+function HippoPage() {
+  const [fillColors, setFillColors] = useState(Array(18).fill("white"));
   const [currentColor, setCurrentColor] = useState("blue");
 
   const onFillColor = (i) => {
@@ -22,34 +22,34 @@ function FlowerPage() {
   
   return (
     <div>
-      <div className="flower">
+      <div className="hippo">
         
-       <Flower fillColors={fillColors} onFill={onFillColor} /> 
+       <Hippo fillColors={fillColors} onFill={onFillColor} /> 
       </div>
       <div>
         <Colors currentColor={currentColor} changeColor={setCurrentColor} />
         <div className="sharebuttons">
         <FacebookShareButton
-        url={"https://coloringpagemintbean.herokuapp.com/flower"}
+        url={"https://coloringpagemintbean.herokuapp.com/hippo"}
         quote={"Look at what I made!"}
         hashtag={"#coloring"}
-        description={"flower coloring page"}
-        className="flowerfacebookbutton"
+        description={"Hippo coloring page"}
+        className="Hippofacebookbutton"
       >
       <FacebookIcon size={32} round /> Share
     </FacebookShareButton>
     <TwitterShareButton
-        title={"Flower"}
-        url={"https://coloringpagemintbean.herokuapp.com/flower"}
-        hashtags={["flower", "color"]}
+        title={"Hippo"}
+        url={"https://coloringpagemintbean.herokuapp.com/hippo"}
+        hashtags={["Hippo", "color"]}
       >
         <TwitterIcon size={32} round />
         Share
       </TwitterShareButton>
       <LinkedinShareButton
-      title={"Flower"}
-      url={"https://coloringpagemintbean.herokuapp.com/flower"}
-      summary={"A coloring page of a simple flower"}>
+      title={"Hippo"}
+      url={"https://coloringpagemintbean.herokuapp.com/hippo"}
+      summary={"A coloring page of a simple hippo"}>
         <LinkedinIcon size={32} round /> Share
       </LinkedinShareButton>
       
@@ -58,13 +58,9 @@ function FlowerPage() {
     
     
     </div>
-{/* </div><a href="flower.flower" download="flower.jpg">
-        <div className="download">
-          <button>download</button>
-        </div></a> */}
       </div>
     </div>
   );
 }
 
-export default FlowerPage;
+export default HippoPage;

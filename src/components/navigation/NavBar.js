@@ -18,6 +18,9 @@ function NavBar() {
       <li>
         <Link to="/firetruck">Firetruck</Link>
       </li>
+      <li>
+        <Link to="/hippo">Hippo</Link>
+      </li>
     </ul>
     </>
   );

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import FireTruck from './firetruck';
-import Colors from '../colorPalette/Colors';
+import Colors from '../../colorPalette/Colors';
 
 function FiretruckPage () {
     const [fillColors, setFillColors] = useState(Array(36).fill('white'))
